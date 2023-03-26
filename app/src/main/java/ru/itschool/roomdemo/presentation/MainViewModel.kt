@@ -22,4 +22,7 @@ class MainViewModel(
 
     val authors = dao.getAuthors()
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
+
+    val articles = dao.getArticles("Ch")
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
 }
