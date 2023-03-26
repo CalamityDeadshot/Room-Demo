@@ -1,4 +1,4 @@
-package ru.itschool.roomdemo.ui.theme
+package ru.itschool.roomdemo.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
